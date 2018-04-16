@@ -6,6 +6,7 @@
   <artifactId>java-design-partters-learnig</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
+  d<description>java设计模式学习</description>
 
   <name>java-design-partters-learnig</name>
   <url>http://maven.apache.org</url>
