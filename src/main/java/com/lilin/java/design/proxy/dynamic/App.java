@@ -8,7 +8,7 @@ public class App {
 		Subject realSubject = new RealSubject();
 		DynamicProxy proxy = new DynamicProxy(realSubject);
 		ClassLoader loader = realSubject.getClass().getClassLoader();
-		Subject subject = (Subject) Proxy.newProxyInstance(loader, new Class[]{Subject.class}, proxy);
+		Subject subject = (Subject) Proxy.newProxyInstance(loader, realSubject.getClass().getInterfaces(), proxy);
 		subject.visit();
 	}
 }
