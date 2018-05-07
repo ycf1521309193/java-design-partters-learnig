@@ -25,28 +25,14 @@ public class MagazineData implements Observerable {
 	
 	
 	public MagazineData() {
-		observers = new ArrayList<>();
+		observers = new ArrayList<Observer>();
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see
-	 * com.lilin.observer.Observerable#registerObserver(com.lilin.observer.Observer
-	 * )
-	 */
 	@Override
 	public void registerObserver(Observer observer) {
 		observers.add(observer);
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see
-	 * com.lilin.observer.Observerable#removeObserver(com.lilin.observer.Observer
-	 * )
-	 */
 	@Override
 	public void removeObserver(Observer observer) {
 		int i = observers.indexOf(observer);
@@ -56,11 +42,6 @@ public class MagazineData implements Observerable {
 
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see com.lilin.observer.Observerable#notifyObservers()
-	 */
 	@Override
 	public void notifyObservers() {
 		for (Observer i : observers) {
