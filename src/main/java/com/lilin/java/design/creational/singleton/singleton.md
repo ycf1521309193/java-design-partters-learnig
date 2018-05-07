@@ -3,7 +3,7 @@
 	单例，顾名思义就是只能有一个、不能再出现第二个。就如同地球上没有两片一模一样的树叶一样。
 	在这里就是说：一个类只能有一个实例，并且整个项目系统都能访问该实例。
 	单例模式共分为两大类：
-## 懒汉模式：
+## 饿汉模式：
 	实例在第一次使用时创建
 	public class BasicSingleton {
 
@@ -33,7 +33,21 @@
 	#item JVM启动时执行主类 会先被加载
 
 }
-## 饿汉模式
+
+## 懒汉模式
 	实例在类装载时创建
+	懒汉模式的代码如下
+	 // 代码一
+	public class Singleton {
+	   private static Singleton instance = null;
+	   private Singleton(){
+	   }
+	   public static Singleton getInstance() {
+	       if (instance == null) {
+	           instance = new Singleton(); 
+	       }        
+	       return instance; 
+	  }
+	}
 	
 
