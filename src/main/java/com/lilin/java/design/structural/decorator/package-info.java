@@ -1,8 +1,9 @@
 /**
  * 装饰者模式 decorator
- */
-/**
- * @author Administrator
- *
+ * 总结：
+ * 装饰者模式，可以动态地将责任附加到对象上，若要扩展功能，装饰者提供了比继承更加有
+ * 弹性的替代方案，有效的避免了类爆炸现象的产生。虽然装饰者模式能够动态将责任附加到
+ * 对象上，但是他会产生许多的细小对象，增加了系统的复杂度。java.io 包可谓是装饰者
+ * 模式的最佳实践。
  */
 package com.lilin.java.design.structural.decorator;
