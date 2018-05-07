@@ -1,4 +1,4 @@
-package com.lilin.java.design.proxy.statics;
+package com.lilin.java.design.structural.proxy.statics;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

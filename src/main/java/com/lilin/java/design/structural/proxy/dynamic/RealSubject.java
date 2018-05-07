@@ -1,4 +1,4 @@
-package com.lilin.java.design.proxy.dynamic;
+package com.lilin.java.design.structural.proxy.dynamic;
 
 public class RealSubject implements Subject {
 	 private String name = "this is real message";

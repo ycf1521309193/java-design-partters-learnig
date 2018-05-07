@@ -1,4 +1,4 @@
-package com.lilin.java.design.proxy.dynamic;
+package com.lilin.java.design.structural.proxy.dynamic;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

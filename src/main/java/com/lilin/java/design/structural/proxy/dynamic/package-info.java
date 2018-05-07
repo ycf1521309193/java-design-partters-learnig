@@ -8,4 +8,4 @@
  * 2、cglib
  *	可以支持接口代理，也可以对没有实现接口的类提供动态代理
  */
-package com.lilin.java.design.proxy.dynamic;
+package com.lilin.java.design.structural.proxy.dynamic;

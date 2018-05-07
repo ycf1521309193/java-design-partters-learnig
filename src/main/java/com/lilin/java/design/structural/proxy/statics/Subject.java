@@ -1,4 +1,4 @@
-package com.lilin.java.design.proxy.statics;
+package com.lilin.java.design.structural.proxy.statics;
 
 public interface Subject {
 	public String sell(int money);

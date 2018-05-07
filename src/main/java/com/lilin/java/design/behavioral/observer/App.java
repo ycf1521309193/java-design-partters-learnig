@@ -1,7 +1,7 @@
-package com.lilin.java.design.observer;
+package com.lilin.java.design.behavioral.observer;
 
-import com.lilin.java.design.observer.impl.Customer;
-import com.lilin.java.design.observer.impl.MagazineData;
+import com.lilin.java.design.behavioral.observer.impl.Customer;
+import com.lilin.java.design.behavioral.observer.impl.MagazineData;
 
 public class App {
 

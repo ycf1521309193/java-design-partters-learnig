@@ -1,4 +1,4 @@
-package com.lilin.java.design.observer;
+package com.lilin.java.design.behavioral.observer;
 
 /**
  * 观察者接口

@@ -1,13 +1,13 @@
 /**
  * 
  */
-package com.lilin.java.design.observer.impl;
+package com.lilin.java.design.behavioral.observer.impl;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.lilin.java.design.observer.Observer;
-import com.lilin.java.design.observer.Observerable;
+import com.lilin.java.design.behavioral.observer.Observer;
+import com.lilin.java.design.behavioral.observer.Observerable;
 
 
 /**
@@ -28,12 +28,10 @@ public class MagazineData implements Observerable {
 		observers = new ArrayList<Observer>();
 	}
 
-	@Override
 	public void registerObserver(Observer observer) {
 		observers.add(observer);
 	}
 
-	@Override
 	public void removeObserver(Observer observer) {
 		int i = observers.indexOf(observer);
 		if (i >= 0) {
@@ -42,7 +40,6 @@ public class MagazineData implements Observerable {
 
 	}
 
-	@Override
 	public void notifyObservers() {
 		for (Observer i : observers) {
 			Observer observer = i;

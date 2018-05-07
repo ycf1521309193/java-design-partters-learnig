@@ -1,6 +1,6 @@
-package com.lilin.java.design.observer.impl;
+package com.lilin.java.design.behavioral.observer.impl;
 
-import com.lilin.java.design.observer.Observer;
+import com.lilin.java.design.behavioral.observer.Observer;
 
 
 public class Customer implements Observer {
@@ -13,7 +13,6 @@ public class Customer implements Observer {
 		this.name = name;
 	}
 
-	@Override
 	public void update(int edition, float cost) {
 		this.edition = edition;
 		this.cost = cost;
