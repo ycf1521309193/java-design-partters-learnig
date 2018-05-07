@@ -1,11 +1,7 @@
 package com.lilin.java.design.structural.proxy.statics;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 public class StaticProxy implements Subject {
 
-	protected Logger logger = LoggerFactory.getLogger(this.getClass());  
 	
 	private Subject subject;// 真正的代理
 
