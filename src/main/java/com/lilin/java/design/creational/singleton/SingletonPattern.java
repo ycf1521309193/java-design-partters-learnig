@@ -2,7 +2,7 @@ package com.lilin.java.design.creational.singleton;
 
 import java.util.Objects;
 
-import junit.framework.Assert;
+import org.junit.Assert;
 
 public class SingletonPattern {
 
@@ -106,12 +106,12 @@ public class SingletonPattern {
 	}
 	
 	public static void main(String[] args) {
-        Assert.assertTrue(Objects.equals(Singleton1.getInstance(), Singleton1.getInstance()));
-        Assert.assertTrue(Objects.equals(Singleton1.getInstance(), Singleton1.getInstance()));
-        Assert.assertTrue(Objects.equals(Singleton2.getInstance(), Singleton2.getInstance()));
-        Assert.assertTrue(Objects.equals(Singleton3.getInstance(), Singleton3.getInstance()));
-        Assert.assertTrue(Objects.equals(Singleton4.getInstance(), Singleton4.getInstance()));
-        Assert.assertTrue(Objects.equals(Singleton5.getInstance(), Singleton5.getInstance()));
-        Assert.assertTrue(Objects.equals(Singleton6.INSTANCE, Singleton6.INSTANCE));
+//        Assert.assertTrue(Objects.equals(Singleton1.getInstance(), Singleton1.getInstance()));
+//        Assert.assertTrue(Objects.equals(Singleton1.getInstance(), Singleton1.getInstance()));
+//        Assert.assertTrue(Objects.equals(Singleton2.getInstance(), Singleton2.getInstance()));
+//        Assert.assertTrue(Objects.equals(Singleton3.getInstance(), Singleton3.getInstance()));
+//        Assert.assertTrue(Objects.equals(Singleton4.getInstance(), Singleton4.getInstance()));
+//        Assert.assertTrue(Objects.equals(Singleton5.getInstance(), Singleton5.getInstance()));
+       System.out.println(Objects.equals(Singleton6.INSTANCE, Singleton6.INSTANCE));
     }
 }
