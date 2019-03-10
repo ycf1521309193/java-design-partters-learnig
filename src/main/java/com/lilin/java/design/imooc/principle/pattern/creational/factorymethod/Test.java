@@ -13,8 +13,12 @@ public class Test {
         Video video = videoFactory.getVideo();
         video.produce();
 
-//        videoFactory = new PythonVideoFactory();
-//        video = videoFactory.getVideo();
-//        video.produce();
+        videoFactory = new PythonVideoFactory();
+        video = videoFactory.getVideo();
+        video.produce();
+
+        videoFactory = new FEVideoFactory();
+        video = videoFactory.getVideo();
+        video.produce();
     }
 }
