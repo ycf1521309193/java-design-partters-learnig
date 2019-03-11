@@ -8,4 +8,7 @@ package com.lilin.java.design.imooc.principle.pattern.creational.abstractfactory
 public interface CourseFactory {
 
 
+    Video getVideo();
+
+    Article getArticle();
 }
