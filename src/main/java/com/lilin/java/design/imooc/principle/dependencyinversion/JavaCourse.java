@@ -2,7 +2,7 @@ package com.lilin.java.design.imooc.principle.dependencyinversion;
 
 /**
  * @author lilin
- * @Title: JavaCourse
+ * @Title: DesignPatternCourse
  * @date 2019/3/9下午5:29
  */
 public class JavaCourse implements ICourse {
