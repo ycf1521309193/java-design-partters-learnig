@@ -8,6 +8,7 @@ package com.lilin.java.design.behavioral.chain;
 public class Test {
     public static void main(String[] args) {
 
+        System.out.println("hello worldsss");
         System.out.println("hello world");
     }
 }
